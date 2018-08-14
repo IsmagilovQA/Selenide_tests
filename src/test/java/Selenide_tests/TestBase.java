@@ -19,7 +19,7 @@ public class TestBase {
         Configuration.timeout = 4000;
         Configuration.browser = "chrome";
         Configuration.headless = false;
-        Configuration.startMaximized = false;
+        Configuration.startMaximized = true;
         Configuration.holdBrowserOpen = false;
         Configuration.screenshots = false;
         //Configuration.baseUrl = "";

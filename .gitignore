@@ -1,12 +1,7 @@
 
 *.xml
 *.xml
-*.bin
-*.bin
-*.lock
 *.xml
 *.xml
-*.iml
-*.xml
-.idea/workspace.xml
-.idea/workspace.xml
+*.class
+*.class
