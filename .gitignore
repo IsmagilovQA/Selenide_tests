@@ -1,3 +1,10 @@
 
 *.xml
 *.xml
+*.bin
+*.bin
+*.lock
+*.xml
+*.xml
+*.iml
+*.xml
