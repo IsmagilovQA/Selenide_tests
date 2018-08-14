@@ -79,8 +79,6 @@ public class Tests extends TestBase {
         goTo.spaces();
         spacesPage.spacesList.size();
 
-        // pro again
-
     }
 
 }
