@@ -79,7 +79,7 @@ public class Tests extends TestBase {
         goTo.spaces();
         spacesPage.spacesList.size();
 
-        //Hi there
+        //Hi
 
     }
 
