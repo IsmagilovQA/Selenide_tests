@@ -6,3 +6,12 @@
 *.class
 *.class
 .idea/gradle.xml
+.DS_Store
+*.bin
+*.lock
+.idea/.name
+.idea/workspace.xml
+out/test/classes/Selenide_tests/Tests.class
+src/.DS_Store
+src/test/.DS_Store
+src/test/java/.DS_Store
