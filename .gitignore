@@ -15,3 +15,7 @@ out/test/classes/Selenide_tests/Tests.class
 src/.DS_Store
 src/test/.DS_Store
 src/test/java/.DS_Store
+.idea/misc.xml
+.idea/gradle.xml
+.gradle/4.8/fileHashes/fileHashes.lock
+.gradle/4.8/fileHashes/fileHashes.bin
