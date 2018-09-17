@@ -2,6 +2,12 @@ plugins {
     id 'java'
 }
 
+// Allure plugin provides advanced reporting
+plugins {
+    id 'io.qameta.allure' version '2.5'
+}
+
+
 group 'Selenide'
 version '1.0-SNAPSHOT'
 
@@ -13,6 +19,24 @@ repositories {
 
 dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
-    compile group: 'com.codeborne', name: 'selenide', version: '4.12.3'
+    compile group: 'com.codeborne', name: 'selenide', version: '4.14.0'
     testCompile group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
+    testCompile 'io.rest-assured:rest-assured:3.1.0'
+    compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.6.0'
+    testImplementation('io.qameta.allure:allure-selenide:2.6.0')
 }
+
+
+// Allure configuration.
+allure {
+    autoconfigure = false
+    version = '2.6.0'
+}
+
+/*
+From now you just need to execute your test and after tests run
+gradle task allureReport that creates Allure report or allureServe
+that creates Allure report and opens it in the default browser.
+ */
+//  ./gradlew allureReport
+//  ./gradlew allureServe
