@@ -7,6 +7,11 @@ plugins {
     id 'io.qameta.allure' version '2.5'
 }
 
+// Enabled TestNG support (default is JUnit) + it's needed for running gradle commands in terminal
+test {
+    useTestNG()
+}
+
 
 group 'Selenide'
 version '1.0-SNAPSHOT'
@@ -38,5 +43,66 @@ From now you just need to execute your test and after tests run
 gradle task allureReport that creates Allure report or allureServe
 that creates Allure report and opens it in the default browser.
  */
+// Gradle commands:
 //  ./gradlew allureReport
 //  ./gradlew allureServe
+
+// ./gradlew -q tasks                                    - available tasks (commands)
+// ./gradlew clean                                       - deletes the build directory, removing all built files.
+// ./gradlew test  --no-daemon --console=plain           - run all classes with tests (scans all compiled classes in the source folder of the project /src/test/java)
+//  ./gradlew test --tests herokuapp\*                   - run test in specific package
+//  ./gradlew test -Dtest.single=Tests_2                 - run only particular class with tests
+
+
+// Only run included tests:
+/*
+test {
+    include '**my.package.name/*'
+}
+ */
+
+// Skip excluded tests:
+/*
+test {
+    exclude '**my.package.name/*'
+}
+ */
+
+// Show all test output in the terminal
+
+/*
+test {
+    useTestNG {
+        excludeGroups 'integrationTests'
+        includeGroups 'unitTests'
+    }
+}
+ */
+
+
+test {
+    testLogging.showStandardStreams = false
+}
+
+/*
+// Another settings for allure:
+allure {
+    version = '2.7.0'
+    autoconfigure = true
+    aspectjweaver = true
+    reportDir = file("$rootDir/build/allure-report")
+    resultsDir = file("$rootDir/build/allure-results")
+    useTestNG(){
+        version = '2.7.0'
+    }
+}
+
+test {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        version = '2.7.0'
+        systemProperty 'allure.results.directory', 'build/allure-results'
+    }
+}
+ */

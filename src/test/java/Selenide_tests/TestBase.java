@@ -1,9 +1,14 @@
 package Selenide_tests;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
+import com.codeborne.selenide.logevents.SelenideLogger;
+import io.qameta.allure.selenide.AllureSelenide;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
+import static com.codeborne.selenide.Selenide.*;
 
 public class TestBase {
     public AreasPage areaPage;
@@ -16,6 +21,7 @@ public class TestBase {
 
     @BeforeSuite
     public void setup() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
         Configuration.timeout = 4000;
         Configuration.browser = "chrome";
         Configuration.headless = false;
@@ -36,6 +42,8 @@ public class TestBase {
 
     @AfterSuite
     public void testShutDown() {
+        SelenideLogger.removeListener("allure");
         WebDriverRunner.clearBrowserCache();
+        close();
     }
 }

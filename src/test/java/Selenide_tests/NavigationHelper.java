@@ -8,23 +8,23 @@ import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.back;
 
 public class NavigationHelper {
-    SelenideElement areasButton = $(By.linkText("Areas"));
-    SelenideElement placesButton = $(By.linkText("Places"));
-    SelenideElement spacesButton = $(By.linkText("Spaces"));
+    //private SelenideElement areasButton = $(By.linkText("Areas"));
+    //private SelenideElement placesButton = $(By.linkText("Places"));
+    //private SelenideElement spacesButton = $(By.linkText("Spaces"));
 
 
     public void areas() {
-        areasButton.click();
+        $(By.linkText("Areas")).click();
     }
 
 
     public void places() {
-        placesButton.click();
+        $(By.linkText("Places")).click();
     }
 
 
     public void spaces() {
-        spacesButton.click();
+        $(By.linkText("Spaces")).click();
     }
 
     public void goBack() {

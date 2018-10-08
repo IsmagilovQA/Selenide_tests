@@ -9,11 +9,11 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class GooglePage {
-    SelenideElement linkText = $(By.linkText("Что такое Selenide"));
-    SelenideElement loginButton = $(By.linkText("LOGIN"));
-    SelenideElement emailField = $("#email");
-    SelenideElement passwordField = $("#password");
-    ElementsCollection results = $$(".srg .g");
+    //private SelenideElement linkText = $(By.linkText("Что такое Selenide"));
+    //private SelenideElement loginButton = $(By.linkText("LOGIN"));
+    //private SelenideElement emailField = $("#email");
+    //private SelenideElement passwordField = $("#password");
+    //private ElementsCollection results = $$(".srg .g");
 
 
 
@@ -29,11 +29,11 @@ public class GooglePage {
     }
 
     public ElementsCollection results() {
-        return results;
+        return $$(".srg .g");
     }
 
     public void clickOnLinkText() {
-        linkText.click();
+        $(By.linkText("Что такое Selenide")).click();
     }
 
     public ElementsCollection resultSet() {
@@ -46,8 +46,8 @@ public class GooglePage {
     }
 
     public void loginOslomet() {
-        loginButton.click();
-        emailField.val("larscyril@nextsignal.no");
-        passwordField.val("Yqt-U9P-NSN-do6").pressEnter();
+        $(By.linkText("LOGIN")).click();
+        $("#email").val("larscyril@nextsignal.no");
+        $("#password").val("Yqt-U9P-NSN-do6").pressEnter();
     }
 }

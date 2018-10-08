@@ -45,7 +45,7 @@ public class Tests extends TestBase {
         goTo.areas();
     }
 
-    @Test(description = "check Areas list")
+   /* @Test(description = "check Areas list")
     public void areasList() {
         areaPage.areasList().shouldHaveSize(82);
         areaPage.areasList.get(3).shouldHave(text("PH131 Auditorium"));
@@ -53,7 +53,7 @@ public class Tests extends TestBase {
         areaPage.areasList.get(5).shouldBe(visible);
         String actualURL = areaPage.clickOnView(2).getCurrentURL();
         assertThat(actualURL, is("https://oslomet.nextsignal.no/areas/3/history"));
-    }
+    }*/
 
     @Test
     public void openArea() {

@@ -5,5 +5,5 @@ import com.codeborne.selenide.ElementsCollection;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class SpacesPage {
-    ElementsCollection spacesList = $$("tbody tr");
+     ElementsCollection spacesList = $$("tbody tr");
 }
