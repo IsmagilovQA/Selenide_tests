@@ -1,5 +1,6 @@
 package herokuapp;
 
+import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import org.apache.commons.io.FileUtils;
@@ -107,7 +108,7 @@ public class Tests extends TestBase {
     }
 
 
-    @Test(enabled = true, description = "check last image on block after updating the page using do-while loop")
+    @Test(enabled = false, description = "check last image on block after updating the page using do-while loop")
     public void dynamic_Content() {
         open("dynamic_content");
         SelenideElement el = $(".row [src='/img/avatars/Original-Facebook-Geek-Profile-Avatar-1.jpg']");
@@ -163,7 +164,7 @@ public class Tests extends TestBase {
     public void file_downloader() throws FileNotFoundException {
 
         String dirpath = "/Users/ismagilov/IdeaProjects/selenide_tests/build/reports/tests";
-        SelenideElement link_format_jpg = $(By.linkText("15355371749013254739699674591536.jpg"));
+        SelenideElement link_format_jpg = $(By.linkText("111.jpg"));
 
         open("download");
         link_format_jpg.download();
@@ -175,14 +176,14 @@ public class Tests extends TestBase {
         System.out.println(fileName);
 
         // Hamcrest assertions:
-        assertThat(fileName, is("15355371749013254739699674591536.jpg"));
+        assertThat(fileName, is("111.jpg"));
         assertThat(isFileDownloaded_Ext(dirpath, "jpg"), equalTo(true));
-        assertThat(isFileDownloaded(dirpath, "15355371749013254739699674591536.jpg"), equalTo(true));
+        assertThat(isFileDownloaded(dirpath, "111.jpg"), equalTo(true));
 
         // Or using TestNG assertions:
-        assertTrue(isFileDownloaded(dirpath, "15355371749013254739699674591536.jpg"), "Failed to download Expected document");
+        assertTrue(isFileDownloaded(dirpath, "111.jpg"), "Failed to download Expected document");
         assertTrue(isFileDownloaded_Ext(dirpath, "jpg"), "Failed to download document which has extension .jpg");
-        assertTrue(fileName.equals("15355371749013254739699674591536.jpg"), "Downloaded file name is not matching with expected file name");
+        assertTrue(fileName.equals("111.jpg"), "Downloaded file name is not matching with expected file name");
     }
 
     // Methods helpers
@@ -270,13 +271,13 @@ public class Tests extends TestBase {
         SelenideElement alert_successful = $("h3");
         SelenideElement displaying_fileName = $("#uploaded-files");
         SelenideElement drag_drop_area = $("#drag-drop-upload");
-        String pathName = "build/reports/tests/15355371749013254739699674591536.jpg";
+        String pathName = "build/reports/tests/Разрешение экранов_Popular_UI.png";
 
         open("upload");
         File file = choose_file.uploadFile(new File(pathName));
         upload_button.click();
         alert_successful.shouldHave(textCaseSensitive("File Uploaded!"));
-        displaying_fileName.shouldHave(exactText("15355371749013254739699674591536.jpg"));
+        displaying_fileName.shouldHave(exactText("Разрешение экранов_Popular_UI.png"));
 
     }
 
@@ -418,16 +419,15 @@ public class Tests extends TestBase {
     }
 
 
-    @Test
+    @Test (description = "using regex expressions to check different notifications with startWith text")
     public void notification_message() {
         SelenideElement notification = $("#flash");
         SelenideElement clickHere_link = $(By.linkText("Click here"));
 
         open("notification_message_rendered");
         clickHere_link.click();
-        notification
-                .shouldBe(visible)
-                .shouldHave(or("Action unsuccesful, please try again", text("Action unsuccesful x"), text("Action unsuccesful, please try again")));
+        notification.shouldBe(visible);
+        notification.shouldHave(matchesText("^.*\\b(Action unsuccesful|Action succesful)\\b.*$"));
     }
 
 

@@ -6,21 +6,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Selenide_tests/AreasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Selenide_tests/AreasPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Selenide_tests/GooglePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Selenide_tests/GooglePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Selenide_tests/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Selenide_tests/NavigationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Selenide_tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Selenide_tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Selenide_tests/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Selenide_tests/Tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/herokuapp/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/herokuapp/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/classes/herokuapp/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/herokuapp/Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide_tests/AreasPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide_tests/AreasPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide_tests/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide_tests/GooglePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide_tests/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide_tests/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide_tests/PlacesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide_tests/PlacesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide_tests/SpacesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide_tests/SpacesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide_tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide_tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenide_tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenide_tests/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/herokuapp/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/herokuapp/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,12 +51,12 @@
         <counts>
           <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -77,7 +64,7 @@
           <entry key="conf" value="3" />
           <entry key="gitignore" value="2" />
           <entry key="gradle" value="9" />
-          <entry key="java" value="92" />
+          <entry key="java" value="97" />
           <entry key="png" value="2" />
           <entry key="properties" value="6" />
         </counts>
@@ -87,21 +74,21 @@
           <entry key="Groovy" value="9" />
           <entry key="HOCON" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="92" />
+          <entry key="JAVA" value="97" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="681" />
-          <entry key="java" value="11792" />
+          <entry key="gradle" value="686" />
+          <entry key="java" value="12159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="681" />
-          <entry key="JAVA" value="11792" />
+          <entry key="Groovy" value="686" />
+          <entry key="JAVA" value="12159" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -112,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/herokuapp/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="345">
+              <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,20 +108,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+            <state relative-caret-position="344">
+              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/herokuapp/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="429" column="95" selection-start-line="429" selection-start-column="95" selection-end-line="429" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/herokuapp/Tests.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.0.0-rc.2/22d64703706c79afb111245a8c66aaa2e5343b21/selenide-5.0.0-rc.2-sources.jar!/com/codeborne/selenide/Condition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="282">
+              <caret line="230" column="54" lean-forward="true" selection-start-line="230" selection-start-column="49" selection-end-line="230" selection-end-column="54" />
+              <folding>
+                <element signature="e#6471#6472#0" expanded="true" />
+                <element signature="e#6503#6504#0" expanded="true" />
+                <element signature="e#7447#7448#0" expanded="true" />
+                <element signature="e#7478#7479#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -339,9 +341,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6144510671000" />
+        <entry key="$PROJECT_DIR$" value="6144860477000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3442249740" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3396298042" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="478838651" />
       </map>
@@ -536,7 +538,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/test/java/herokuapp/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Selenide_tests/Tests_2.java" />
         <option value="$PROJECT_DIR$/src/test/java/Selenide_tests/GooglePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Selenide_tests/NavigationHelper.java" />
@@ -548,6 +549,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Selenide_tests/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/herokuapp/TestBase.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/java/herokuapp/Tests.java" />
       </list>
     </option>
   </component>
@@ -574,6 +576,11 @@
               <item name="selenide_tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenide_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=".allure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenide_tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenide_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="selenide_tests" type="b2602c69:ProjectViewProjectNode" />
@@ -611,7 +618,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538750324068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539159580784" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -634,7 +641,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests.challenging_DOM">
+  <component name="RunManager" selected="TestNG.Tests.notification_message">
+    <configuration name="Tests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenide_tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="herokuapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="herokuapp" />
+      <option name="MAIN_CLASS_NAME" value="herokuapp.Tests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests.challenging_DOM" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide_tests_test" />
       <extension name="coverage">
@@ -653,7 +676,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.dropdown_List" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.file_Uploader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide_tests_test" />
       <extension name="coverage">
         <pattern>
@@ -663,7 +686,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="herokuapp" />
       <option name="MAIN_CLASS_NAME" value="herokuapp.Tests" />
-      <option name="METHOD_NAME" value="dropdown_List" />
+      <option name="METHOD_NAME" value="file_Uploader" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -671,7 +694,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.dynamic_Content" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.file_downloader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide_tests_test" />
       <extension name="coverage">
         <pattern>
@@ -681,7 +704,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="herokuapp" />
       <option name="MAIN_CLASS_NAME" value="herokuapp.Tests" />
-      <option name="METHOD_NAME" value="dynamic_Content" />
+      <option name="METHOD_NAME" value="file_downloader" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -689,7 +712,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.jquery_ui_menu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.notification_message" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide_tests_test" />
       <extension name="coverage">
         <pattern>
@@ -699,25 +722,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="herokuapp" />
       <option name="MAIN_CLASS_NAME" value="herokuapp.Tests" />
-      <option name="METHOD_NAME" value="jquery_ui_menu" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.openArea" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenide_tests_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenide_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenide_tests" />
-      <option name="MAIN_CLASS_NAME" value="Selenide_tests.Tests" />
-      <option name="METHOD_NAME" value="openArea" />
+      <option name="METHOD_NAME" value="notification_message" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -726,19 +731,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Tests.jquery_ui_menu" />
-      <item itemvalue="TestNG.Tests.dynamic_Content" />
-      <item itemvalue="TestNG.Tests.dropdown_List" />
-      <item itemvalue="TestNG.Tests.openArea" />
       <item itemvalue="TestNG.Tests.challenging_DOM" />
+      <item itemvalue="TestNG.Tests" />
+      <item itemvalue="TestNG.Tests.notification_message" />
+      <item itemvalue="TestNG.Tests.file_Uploader" />
+      <item itemvalue="TestNG.Tests.file_downloader" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tests.notification_message" />
+        <item itemvalue="TestNG.Tests" />
+        <item itemvalue="TestNG.Tests.file_downloader" />
+        <item itemvalue="TestNG.Tests.file_Uploader" />
         <item itemvalue="TestNG.Tests.challenging_DOM" />
-        <item itemvalue="TestNG.Tests.openArea" />
-        <item itemvalue="TestNG.Tests.dropdown_List" />
-        <item itemvalue="TestNG.Tests.dynamic_Content" />
-        <item itemvalue="TestNG.Tests.jquery_ui_menu" />
       </list>
     </recent_temporary>
   </component>
@@ -756,35 +761,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_dropdown_List - 2018.10.05 at 15h 37m 00s.xml">
-      <configuration name="Tests.dropdown_List" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.09 at 19h 00m 24s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_dropdown_List - 2018.10.05 at 15h 38m 06s.xml">
-      <configuration name="Tests.dropdown_List" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.09 at 19h 00m 48s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_openArea - 2018.10.05 at 17h 20m 34s.xml">
-      <configuration name="Tests.openArea" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.09 at 19h 02m 26s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_openArea - 2018.10.05 at 17h 22m 33s.xml">
-      <configuration name="Tests.openArea" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.10 at 10h 54m 10s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_openArea - 2018.10.05 at 17h 23m 18s.xml">
-      <configuration name="Tests.openArea" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.10 at 10h 55m 09s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_challenging_DOM - 2018.10.05 at 17h 26m 15s.xml">
-      <configuration name="Tests.challenging_DOM" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.10 at 10h 56m 04s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_challenging_DOM - 2018.10.05 at 17h 27m 19s.xml">
-      <configuration name="Tests.challenging_DOM" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.10 at 10h 57m 03s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_challenging_DOM - 2018.10.05 at 17h 28m 27s.xml">
-      <configuration name="Tests.challenging_DOM" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.10 at 10h 58m 22s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_challenging_DOM - 2018.10.05 at 17h 29m 21s.xml">
-      <configuration name="Tests.challenging_DOM" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.10 at 11h 15m 25s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_challenging_DOM - 2018.10.05 at 17h 29m 59s.xml">
-      <configuration name="Tests.challenging_DOM" configurationId="TestNG" />
+    <history-entry file="Tests_notification_message - 2018.10.10 at 11h 18m 32s.xml">
+      <configuration name="Tests.notification_message" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -800,7 +805,7 @@
     <frame x="411" y="86" width="1220" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22580644" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22920203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -809,16 +814,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3283767" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4991511" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4991511" weight="0.32866243" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008489" side_tool="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3283767" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32961586" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32738853" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -830,6 +835,37 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32911393" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22920203" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3283767" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4991511" weight="0.32866243" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5008489" side_tool="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32738853" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.3293718" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32911393" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1104,27 +1140,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.0.0-rc.2/22d64703706c79afb111245a8c66aaa2e5343b21/selenide-5.0.0-rc.2-sources.jar!/com/codeborne/selenide/Selectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/herokuapp/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="345">
+          <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/herokuapp/Tests.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeborne/selenide/5.0.0-rc.2/22d64703706c79afb111245a8c66aaa2e5343b21/selenide-5.0.0-rc.2-sources.jar!/com/codeborne/selenide/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="282">
+          <caret line="230" column="54" lean-forward="true" selection-start-line="230" selection-start-column="49" selection-end-line="230" selection-end-column="54" />
+          <folding>
+            <element signature="e#6471#6472#0" expanded="true" />
+            <element signature="e#6503#6504#0" expanded="true" />
+            <element signature="e#7447#7448#0" expanded="true" />
+            <element signature="e#7478#7479#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/java/herokuapp/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+        <state relative-caret-position="309">
+          <caret line="429" column="95" selection-start-line="429" selection-start-column="95" selection-end-line="429" selection-end-column="95" />
         </state>
       </provider>
     </entry>
