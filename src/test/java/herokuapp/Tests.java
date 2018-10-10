@@ -427,7 +427,7 @@ public class Tests extends TestBase {
         open("notification_message_rendered");
         clickHere_link.click();
         notification.shouldBe(visible);
-        //notification.shouldHave(matchesText("^.*\\b(Action unsuccesful|Action succesful)\\b.*$"));
+        notification.shouldHave(matchText("^.*\\b(Action unsuccesful|Action succesful)\\b.*$"));
         notification.shouldHave(or(" alert", text("Action"), text("Done")));
     }
 
