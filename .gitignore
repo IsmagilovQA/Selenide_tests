@@ -47,3 +47,4 @@ src/test/.DS_Store
 *.lock
 *.bin
 .DS_Store
+*.log

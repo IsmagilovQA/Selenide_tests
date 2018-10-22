@@ -24,11 +24,13 @@ repositories {
 
 dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
-    compile group: 'com.codeborne', name: 'selenide', version: '5.0.0-rc.2'
+    compile group: 'com.codeborne', name: 'selenide', version: '5.0.0'
     testCompile group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
     testCompile 'io.rest-assured:rest-assured:3.1.0'
     compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.6.0'
     testImplementation('io.qameta.allure:allure-selenide:2.6.0')
+    testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    compile group: 'com.automation-remarks', name: 'video-recorder-testng', version: '1.8'
 }
 
 

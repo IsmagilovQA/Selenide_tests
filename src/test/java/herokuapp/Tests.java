@@ -1,5 +1,7 @@
 package herokuapp;
 
+import com.automation.remarks.testng.VideoListener;
+import com.automation.remarks.video.annotations.Video;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
@@ -11,6 +13,9 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -427,7 +432,7 @@ public class Tests extends TestBase {
         open("notification_message_rendered");
         clickHere_link.click();
         notification.shouldBe(visible);
-        notification.shouldHave(matchText("^.*\\b(Action unsuccesful|Action succesful)\\b.*$"));
+        //notification.shouldHave(matchText("^.*\\b(Action unsuccesful|Action succesful)\\b.*$"));
         notification.shouldHave(or(" alert", text("Action"), text("Done")));
     }
 
