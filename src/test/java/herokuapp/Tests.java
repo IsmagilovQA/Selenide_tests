@@ -1,8 +1,5 @@
 package herokuapp;
 
-import com.automation.remarks.testng.VideoListener;
-import com.automation.remarks.video.annotations.Video;
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
 import org.apache.commons.io.FileUtils;
@@ -13,9 +10,6 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.hamcrest.Matchers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -424,7 +418,7 @@ public class Tests extends TestBase {
     }
 
 
-    @Test (description = "using regex expressions to check different notifications with startWith text")
+    @Test(description = "using regex expressions to check different notifications with startWith text")
     public void notification_message() {
         SelenideElement notification = $("#flash");
         SelenideElement clickHere_link = $(By.linkText("Click here"));
