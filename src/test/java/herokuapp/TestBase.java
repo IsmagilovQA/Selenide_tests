@@ -92,7 +92,7 @@ public class TestBase {
         SelenideLogger.addListener("allure", new AllureSelenide()); // attach screenshots to allure report if test failed
         Configuration.timeout = 4000;
         //Configuration.browser = "chrome"; // Chrome in selenide 5.0.0 is a default browser
-        Configuration.headless = false;
+        Configuration.headless = true;
         //Configuration.startMaximized = false;
         //Configuration.browserSize = "1366x768"; // most popular size
         Configuration.holdBrowserOpen = false;

@@ -10,9 +10,9 @@ import static com.codeborne.selenide.Condition.empty;
 import static com.codeborne.selenide.Selenide.back;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
-
+/*
 public class Tests extends TestBase {
-    /*
+
 
     @Test(description = "Test search results on Google site")
     public void userCanSearch() {
@@ -31,7 +31,8 @@ public class Tests extends TestBase {
         googlePage.openPage();
         googlePage.dropdown_Support_Training();
     }
-*/
+
+
 
     @BeforeClass(description = "log in into CMS")
     public void loginToCMS() {
@@ -45,7 +46,7 @@ public class Tests extends TestBase {
         goTo.areas();
     }
 
-   /* @Test(description = "check Areas list")
+   @Test(description = "check Areas list")
     public void areasList() {
         areaPage.areasList().shouldHaveSize(82);
         areaPage.areasList.get(3).shouldHave(text("PH131 Auditorium"));
@@ -53,7 +54,7 @@ public class Tests extends TestBase {
         areaPage.areasList.get(5).shouldBe(visible);
         String actualURL = areaPage.clickOnView(2).getCurrentURL();
         assertThat(actualURL, is("https://oslomet.nextsignal.no/areas/3/history"));
-    }*/
+    }
 
     @Test
     public void openArea() {
@@ -81,4 +82,5 @@ public class Tests extends TestBase {
 
     }
 
-}
+
+}*/

@@ -159,7 +159,8 @@ public class Tests extends TestBase {
     }
 
 
-    @Test(description = "check download feature 'File.class' + verify format / file name + Hamcrest/TestNG assertions")
+   /*
+    @Test(enabled = false, description = "check download feature 'File.class' + verify format / file name + Hamcrest/TestNG assertions")
     public void file_downloader() throws FileNotFoundException {
 
         String dirpath = "/Users/ismagilov/IdeaProjects/selenide_tests/build/reports/tests";
@@ -248,7 +249,7 @@ public class Tests extends TestBase {
         }
     }
 
-    /*
+
        Path firstFilePath = Paths.get("<Path-To-Your-First-File>");
        Path secondFilePath = Paths.get("<Path-To-Your-Second-File>");
 
@@ -260,9 +261,9 @@ public class Tests extends TestBase {
        } catch (IOException e) {
        //handle exception
        }
-     */
 
-    @Test
+
+   @Test (enabled = false)
     public void file_Uploader() {
 
         SelenideElement upload_button = $("#file-submit");
@@ -278,7 +279,7 @@ public class Tests extends TestBase {
         alert_successful.shouldHave(textCaseSensitive("File Uploaded!"));
         displaying_fileName.shouldHave(exactText("Разрешение экранов_Popular_UI.png"));
 
-    }
+    }*/
 
 
     @Test(description = "Handling floating menu after scroll")
