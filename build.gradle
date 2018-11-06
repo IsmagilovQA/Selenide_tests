@@ -2,6 +2,16 @@ plugins {
     id 'java'
 }
 
+// The Project Report Plugin (from Gradle)
+/*
+apply plugin: 'project-report'
+
+reporting {
+    baseDir "$buildDir/reports"
+}
+ more info - https://docs.gradle.org/current/userguide/project_report_plugin.html
+ */
+
 // Allure plugin provides advanced reporting
 plugins {
     id 'io.qameta.allure' version '2.5'
@@ -38,6 +48,7 @@ dependencies {
 allure {
     autoconfigure = false
     version = '2.6.0'
+    configuration = 'implementation' //to be seen @Step on allure
 }
 
 /*
@@ -108,3 +119,11 @@ test {
     }
 }
  */
+
+/*task runtests(type: Test) {
+    useTestNG {
+        options ->
+            options.parallel = 'classes' //modes: methods, tests, classes or instances.
+            options.threadCount = 4
+    }
+}*/

@@ -5,13 +5,13 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
@@ -78,6 +78,7 @@ public class TestBase {
     @BeforeSuite
     public void setup() throws MalformedURLException {
 
+        /*
         // Selenoid conficurations
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVideo", false);
@@ -86,6 +87,7 @@ public class TestBase {
         Configuration.remote = "http://localhost:4444/wd/hub";
         Configuration.browser = "chrome";
         Configuration.browserSize = "1280x1024";
+        */
 
         SelenideLogger.addListener("allure", new AllureSelenide()); // attach screenshots to allure report if test failed
         Configuration.timeout = 4000;
